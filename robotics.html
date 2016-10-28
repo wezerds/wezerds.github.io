@@ -1,0 +1,91 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+<head>
+	<title>wezerds - robotics</title>
+	<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}		
+	</style>
+</head>
+	<body>	
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li class="dropdown">
+		<a href="#" class="dropbtn">Gif</a>
+		<div class="dropdown-content">
+		  <a href="gif.html">page 1</a>
+		  <a href="gif2.html">page 2</a>
+		  <a href="gif3.html">page 3</a>
+		</div>
+	  </li>
+	  <li><a href="robotics.html">Robotics</a></li>
+	  <li><a href="CyberPatriot.html">Cyber Guide</a></li>
+	  <li><a href="gameder.html">games</a></li>
+	  <li><a href="downloads.html">downloads</a></li>
+	<li><a href="aboutme.html">about me</a></li>
+		<!--<li><a href="login/login.html">Login</a></li>-->
+	</ul>
+	<hr>
+        <center><h1>Welcome to my robotics page</h1></center>
+	<center><img src="pictures\robot2.jpg" height="100%" width="25%" border=5></center>
+	<p>In robotics you design, build and program robots. In my opinion programing the robot is the most interesting part and is what I'm going to go into depth on. Programing consist of typing, compiling, and uploading the compiled code to the robot. Code looks like this:</p>
+	<code>Y1 = (abs(vexRT[Ch3]) > threshold) ? (vexRT[Ch3]) : (0);</code>
+	<p>Code can be complex and vary mathematical. Now some people say that code is as simple as tying in "go forward" BUT it is not that simple. There is plenty of online "coding" places but none of them are really coding. Coding involves defining what "go forward" is and not just calling it.</p>
+	<p> Some people say "hey it's a library already made why can't I just use it." Well what if it breaks, well since you can't maintenance it you're screwed. But even if you "have to" use a premade library you should at least know what it all means. As many of my mentors have told me "if you don't know what it means don't use it tell you do." Now some people may think "well if I never use it then how am I supposed to know what it means" well that's not what I meant, what I meant was that do't go and use it in production until you know what it means. Now more people may say "I'm using scratch and it's kept in order." Well yes, but you aren't learning much from that. After some time you have learned everything you can and you need to move on. </p>
+	<p>That's where I come in. I am really good at helping people make that transition from scratch to something else like C++, java, or 30 other languages. </p> 
+	<p>On this site I am going to walk you through my previous vex robots and the code behind them. Now I and my team are going to do all we can to keep a well-documented website but not all the details will be here so if you have in questions email myps3ylod@gmail.com thanks.</p><!-- I don't have all 4 years of my vex code and designees but I have some pictures of them I will start with my 6th grade year.</p>-->
+	<p><a href="https://github.com/ExplorerPost1882/8113A">here is a link to my teams code</a></p>
+	<h3>Class of 9/27/16 remote accelerometer</h3>
+	<p>In today's class I am going to show you my <a href="https://github.com/ExplorerPost1882/8113A/tree/master/2014-2015">2015-2015 code.</a> Once you have opened the line you will notice two folders, I want you to open 2014 and 
+	than open jyro.c . Than scroll to the bottom and look at line 301. After reading it you might notice that <code>vexRT[AccelY]</code> Looks out of unfamiliar, And it should be, this is how you call the accelerometer in the controller. Now the controller has a 3-way accelerometer it can detect x, y, and z movement. In the picture below is the lay out of the x y z. Here is the code for each <code>vexRT[AccelX] vexRT[AccelY] vexRT[AccelZ]</code> Feel free to play with these and post what ever crazy inventions you make and send a link to me at myps3ylod@gmail.com</p>
+	
+	<!--<h6>cyber-control ©2016</h6>-->
+	</body>
+</html> 
