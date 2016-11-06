@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html lang="en-US"> 
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>wezerds - home</title>
 	<link rel="import" href="text.html">
 	<style>
@@ -53,12 +54,11 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }		
-html { 
-  background: url(pictures/index-background-norm.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body {
+    background: url("pictures/index-background-norm.png");
+    background-size: 100%;
+    background-repeat: repeat;
+    padding-top: 40px;
 }
 h2 {
     color: red;
@@ -72,7 +72,7 @@ p {
 hr {
     border-color: red;
 }
-
+img, embed, object, video {max-width: 100%;}
 	</style>
 	
 </head>
